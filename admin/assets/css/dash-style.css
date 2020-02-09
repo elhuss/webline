@@ -1,0 +1,296 @@
+
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+body{
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+
+}
+.page{
+  width:  100%;
+  margin: auto;
+  text-transform: capitalize;
+}
+.top_bar{
+width: 100%;
+height:40px;
+background: #eee;
+}
+header{
+  width: 100%;
+  height: 80px;
+  margin: 0%;
+  background: #fff;
+  top:0;
+  left: 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+.logo{
+
+  height: 100px;
+  width: 20%;
+  left: 40%;
+  bottom: 10px;
+  position: absolute;
+}
+.logo h1{
+font-size: 50px;
+color: #000;
+}
+.logo b{
+color: #3B5998;
+}
+.logout_link{
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  left: 90%;
+  top: 25px
+}
+.logout_link:hover{
+  color: #3B5998;
+}
+
+.side_menu{
+  width:200px;
+  height:100%;
+  background:#444;
+  float: left;
+  position: fixed;
+  overflow-x: hidden;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+} 
+.side_menu a{
+  text-decoration:none;
+  font-size:18px;
+  font-family:verdana;
+  color:#fff;
+  padding-left:40px;
+}
+.side_menu a:hover{
+  height:50px;
+  width:100%;
+  color: #3B5998;
+  background:#444;
+}
+.content{
+  margin-left:200px;
+}
+.content h2{
+    float: left;
+}
+table{
+    position: relative;
+    left: 20px;
+    text-align: center;
+}
+table tr{
+    height: 40px;
+}
+table tr td{
+   width: 150px; 
+}
+#id_num{
+    width: 30px;
+}
+#msg{
+    width: 400px;
+}
+/*edit work*/
+.our-work{
+  width: 100%;
+  height: fit-content;
+  background: #fff;
+  text-align: center;
+}
+.gallery {
+margin-top: 20px;
+position: relative;
+width: 280px;
+height: 200px;
+float: left;
+margin: 28px;
+}
+.image {
+display: block;
+width: 100%;
+height: 200px;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: #008CBA;
+}
+
+.gallery:hover .overlay {
+opacity: 1;
+}
+#add_btn{
+  width:240px;
+  height:30px;
+  margin-left: 30px;
+  margin-top:20px;
+  border:none;
+  border-radius:20px;
+  color:#fff;
+  background:#3B5998;
+}
+#add_btn:hover{
+  background:#3B5fff;
+}
+.text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+/*add work*/
+form{
+  margin-top:20px;
+  text-align:center;
+}
+.input_file{
+  width: 0.1px;
+height: 0.1px;
+opacity: 0;
+overflow: hidden;
+position: absolute;
+z-index: -1;
+}
+label{
+  height:25px;
+  width:150px;
+  font-size:18px;
+  color: white;
+  border-radius:10px;
+  background-color: #999;
+  display: inline-block;
+  cursor: pointer;
+}
+.input_file:focus + label,
+.input_file + label:hover {
+  background-color: #666;
+}
+.un_input{
+  width:200px;
+  height:30px;
+  border:1px solid #3B5998;
+  border-radius:10px;
+  margin-top:20px;
+  padding-left:10px;
+}
+.btn_input{
+  width:150px;
+  height:30px;
+  margin-top:20px;
+  border:none;
+  border-radius:20px;
+  color:#fff;
+  background:#3B5998;  
+}
+.btn_input:hover{
+  background:#3B5fff;
+}
+/*edit team*/
+.our_team{
+  text-align: center;
+  height: 450px;
+  margin-bottom: 20px;
+}
+.member{
+  margin-top: 30px;
+  float: left;
+  margin-left: 10%;
+  width: 20%;
+  height: 400px;
+}
+.member img{
+  float: left;
+  width: 90%;
+  height: 55%;
+  border: 10px solid #999;
+  border-radius: 50%;
+}
+.member_info{
+  position: relative;
+  top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.member_name{
+  font-size: 20px;
+}
+.member i{
+  color: #666666;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.member_info i:hover{
+  color: #3B5998;
+}
+/*add team*/
+form{
+  margin-top:20px;
+  text-align:center;
+}
+.input_file{
+  width: 0.1px;
+height: 0.1px;
+opacity: 0;
+overflow: hidden;
+position: absolute;
+z-index: -1;
+}
+label{
+  height:25px;
+  width:150px;
+  font-size:18px;
+  color: white;
+  border-radius:10px;
+  background-color: #999;
+  display: inline-block;
+  cursor: pointer;
+}
+.input_file:focus + label,
+.input_file + label:hover {
+  background-color: #666;
+}
+.un_input{
+  width:200px;
+  height:30px;
+  border:1px solid #3B5998;
+  border-radius:10px;
+  margin-top:20px;
+  padding-left:10px;
+}
+.btn_input{
+  width:150px;
+  height:30px;
+  margin-top:20px;
+  border:none;
+  border-radius:20px;
+  color:#fff;
+  background:#3B5998;  
+}
+.btn_input:hover{
+  background:#3B5fff;
+}
